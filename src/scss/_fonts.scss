@@ -1,0 +1,43 @@
+$font_path: '../assets/fonts/';
+
+ @font-face {
+    font-family: 'IntroBold';
+    src: 
+        url($font_path + 'introbold-webfont.woff2') format('woff2'),
+        url($font_path + 'introbold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: 
+        url($font_path + 'introregular-webfont.woff2') format('woff2'),
+        url($font_path + 'introregular-webfont.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'IntroRegularItalic';
+    src: 
+        url($font_path + 'introregularitalic-webfont.woff2') format('woff2'),
+        url($font_path + 'introregularitalic-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'IntroSemiBold';
+    src: 
+        url($font_path + 'introsemibold-webfont.woff2') format('woff2'),
+        url($font_path + 'introsemibold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'IntroSemiBoldItalic';
+    src: 
+        url($font_path + 'introsemibolditalic-webfont.woff2') format('woff2'),
+        url($font_path + 'introsemibolditalic-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'tu-fontawesome';
+    src: 
+        url($font_path + 'tu-fontawesome-webfont.woff2') format('woff2'),
+        url($font_path + 'tu-fontawesome-webfont.woff') format('woff');
+}
